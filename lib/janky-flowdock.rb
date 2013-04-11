@@ -28,5 +28,7 @@ module Janky
 
 		end
 	end
+
+  register_chat_service "flowdock", ChatService::Flowdock
 end
 
